@@ -1,0 +1,105 @@
+.frameChild {
+  width: 245px;
+  height: 252px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-400);
+  display: none;
+  z-index: 0;
+}
+.frameItem {
+  height: 96.5px;
+  width: 96.5px;
+  position: relative;
+  z-index: 2;
+}
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-18xl);
+}
+.nextjs {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.blurIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 225px;
+  top: 0;
+  transform: scale(4.243);
+}
+.wrapperBlur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameInner {
+  position: absolute;
+  top: 285px;
+  left: 87px;
+  width: 328.8px;
+  height: 286.9px;
+  object-fit: contain;
+  z-index: 1;
+}
+.groupIcon,
+.wrapperBlurParent {
+  position: absolute;
+  margin: 0 !important;
+}
+.wrapperBlurParent {
+  width: 415.8px;
+  height: 571.9px;
+  right: -170.8px;
+  bottom: -424.9px;
+}
+.groupIcon {
+  width: 43px;
+  height: 43px;
+  top: 104px;
+  left: -20px;
+  object-fit: contain;
+  z-index: 2;
+}
+.rectangleParent {
+  height: 252px;
+  width: 245px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslateblue-400);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 43.700000000000045px var(--padding-18xl) var(--padding-40xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 33.799999999999955px;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 450px) {
+  .nextjs {
+    font-size: var(--font-size-xl);
+    line-height: 18px;
+  }
+}

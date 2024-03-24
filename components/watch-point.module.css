@@ -1,0 +1,294 @@
+.quickLinks {
+  margin: 0;
+  height: 30px;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.about,
+.blog,
+.category,
+.courses {
+  margin: 0;
+}
+.aboutCoursesCategoryContainer {
+  width: 154px;
+  height: 196px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 50px;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lavender-400);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.compiler,
+.debuggerController {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.compiler {
+  gap: var(--gap-33xl);
+}
+.debuggerController {
+  padding: var(--padding-9xl) var(--padding-0) var(--padding-0);
+}
+.legalInfo {
+  margin: 0;
+  width: 277px;
+  height: 33px;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.badCreditLoans,
+.paydayLoans,
+.shortTermLoans {
+  margin: 0;
+}
+.shortTermLoansContainer {
+  align-self: stretch;
+  height: 196px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 50px;
+  font-family: var(--text-lg-semibold);
+  color: var(--color-lavender-400);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.debuggerController1,
+.legalInfoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.legalInfoParent {
+  align-self: stretch;
+  gap: var(--gap-28xl);
+}
+.debuggerController1 {
+  width: 294px;
+  padding: var(--padding-11xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.signup {
+  margin: 0;
+  width: 262px;
+  height: 70px;
+  position: relative;
+  font-size: inherit;
+  line-height: 95px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.instructor {
+  text-decoration: underline;
+}
+.signupAsAInstructor {
+  margin: 0;
+}
+.student {
+  text-decoration: underline;
+}
+.signin,
+.signupAsAStudent {
+  margin: 0;
+}
+.signupAsAContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 50px;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+  color: var(--color-lavender-400);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.lexer {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.contactUs {
+  margin: 0;
+  width: 277px;
+  height: 70px;
+  position: relative;
+  font-size: inherit;
+  line-height: 95px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.div,
+.soobinnghigmailcom {
+  position: relative;
+  line-height: 18px;
+  z-index: 4;
+}
+.div {
+  width: 263.4px;
+  display: inline-block;
+}
+.soobinnghigmailcom {
+  flex: 1;
+  white-space: nowrap;
+}
+.soobinnghigmailcomWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    1.3000000000000114px;
+}
+.phungChiKien {
+  height: 44px;
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+  z-index: 4;
+}
+.phungChiKienDaNangWrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-9xs) var(--padding-0)
+    2.3000000000000114px;
+}
+.logicGate,
+.logicGateWrapper,
+.phungChiKienDaNangWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.logicGate {
+  width: 286.3px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-20xl-5);
+}
+.logicGateWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  color: var(--color-lightsteelblue-300);
+  font-family: var(--text-lg-semibold);
+}
+.outputCollector,
+.stepper,
+.watchPoint {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.outputCollector {
+  width: 329px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+}
+.stepper,
+.watchPoint {
+  flex-direction: row;
+}
+.stepper {
+  width: 1378px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.watchPoint {
+  width: 1596px;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-xl) var(--padding-12xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--white);
+  font-family: var(--font-red-rose);
+}
+@media screen and (max-width: 1400px) {
+  .stepper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quickLinks {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .aboutCoursesCategoryContainer {
+    font-size: var(--font-size-base);
+    line-height: 40px;
+  }
+  .legalInfo {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .shortTermLoansContainer {
+    font-size: var(--font-size-base);
+    line-height: 40px;
+  }
+  .legalInfoParent {
+    gap: 23px 47px;
+  }
+  .signup {
+    font-size: var(--font-size-3xl);
+    line-height: 76px;
+  }
+  .signupAsAContainer {
+    font-size: var(--text-lg-semibold-size);
+    line-height: 40px;
+  }
+  .lexer {
+    gap: 20px 40px;
+  }
+  .contactUs {
+    font-size: var(--font-size-3xl);
+    line-height: 76px;
+  }
+  .div,
+  .phungChiKien,
+  .soobinnghigmailcom {
+    font-size: var(--font-size-base);
+    line-height: 14px;
+  }
+  .phungChiKien {
+    line-height: 20px;
+  }
+  .logicGate {
+    gap: 20px 39.5px;
+  }
+  .outputCollector {
+    gap: 27px 54px;
+  }
+}

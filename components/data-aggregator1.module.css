@@ -1,0 +1,249 @@
+.dataAggregatorChild {
+  height: 207.6px;
+  width: 1920px;
+  position: relative;
+  background: linear-gradient(180deg, #801def, #2cd2ab);
+  display: none;
+  max-width: 100%;
+}
+.sol1Icon,
+.solana {
+  position: relative;
+  z-index: 2;
+}
+.sol1Icon {
+  height: 35px;
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.solana {
+  margin: 0;
+  font-size: inherit;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.logicTree,
+.outputDispatcher {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.outputDispatcher {
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
+}
+.logicTree {
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.image736Icon {
+  height: 73px;
+  width: 101px;
+  position: absolute;
+  margin: 0 !important;
+  top: -28px;
+  left: -81px;
+  object-fit: cover;
+  z-index: 2;
+}
+.superteamvn {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.frameWrapper,
+.image736Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image736Parent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper {
+  width: 366px;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.renaissance,
+.sol1Icon1 {
+  position: relative;
+  z-index: 2;
+}
+.sol1Icon1 {
+  height: 35px;
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.renaissance {
+  margin: 0;
+  font-size: inherit;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.logicalOperator,
+.variableHolder {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.logicalOperator {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 210px;
+}
+.variableHolder {
+  width: 384px;
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.sol1Icon2,
+.solana1 {
+  position: relative;
+  z-index: 2;
+}
+.sol1Icon2 {
+  height: 35px;
+  width: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.solana1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.solanaWrapper,
+.variableHolder1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.solanaWrapper {
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
+}
+.variableHolder1 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.dataAggregator,
+.expressionTree,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.expressionTree {
+  flex: 1;
+  justify-content: space-between;
+  min-width: 460px;
+  gap: var(--gap-xl);
+}
+.dataAggregator,
+.frameParent {
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 1154px;
+  gap: var(--gap-61xl);
+}
+.dataAggregator {
+  flex: 1;
+  background: linear-gradient(180deg, #801def, #2cd2ab);
+  padding: var(--padding-67xl) var(--padding-123xl) 86.59999999999991px;
+  box-sizing: border-box;
+  gap: var(--gap-146xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1850px) {
+  .dataAggregator {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .expressionTree {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    gap: 80px 40px;
+  }
+  .dataAggregator {
+    gap: 165px 82px;
+    padding-left: var(--padding-52xl);
+    padding-right: var(--padding-52xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .renaissance,
+  .solana,
+  .superteamvn {
+    font-size: var(--font-size-21xl);
+    line-height: 14px;
+  }
+  .variableHolder {
+    flex-wrap: wrap;
+  }
+  .solana1 {
+    font-size: var(--font-size-21xl);
+    line-height: 14px;
+  }
+  .frameParent {
+    gap: 80px 20px;
+  }
+  .dataAggregator {
+    gap: 165px 41px;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .solana {
+    font-size: var(--font-size-11xl);
+    line-height: 11px;
+  }
+  .logicTree {
+    flex-wrap: wrap;
+  }
+  .renaissance,
+  .solana1,
+  .superteamvn {
+    font-size: var(--font-size-11xl);
+    line-height: 11px;
+  }
+  .variableHolder1 {
+    flex-wrap: wrap;
+  }
+  .dataAggregator {
+    gap: 165px 21px;
+  }
+}
